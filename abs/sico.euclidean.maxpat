@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 132.0, 231.0, 280.0, 311.0 ],
+		"rect" : [ 1036.0, 500.0, 280.0, 311.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 72.0, 154.0, 70.0, 22.0 ],
+					"patching_rect" : [ 72.0, 150.0, 70.0, 22.0 ],
 					"text" : "/ 1."
 				}
 

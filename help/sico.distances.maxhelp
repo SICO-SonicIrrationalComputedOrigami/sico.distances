@@ -245,8 +245,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 575.0, 248.0, 50.0 ],
-					"text" : "move over the output to know the distance behaviour",
+					"patching_rect" : [ 66.0, 575.0, 662.0, 50.0 ],
+					"text" : "unlock the patch and move the mouse over the outlet of the objects to know the distance behaviour",
 					"textcolor" : [ 0.584, 0.796, 0.216, 1.0 ],
 					"textjustification" : 1
 				}
@@ -310,7 +310,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 29.0, 219.0, 28.0 ],
+					"patching_rect" : [ 66.0, 29.0, 662.0, 28.0 ],
 					"text" : "SICO Distances",
 					"textcolor" : [ 0.584, 0.796, 0.216, 1.0 ],
 					"textjustification" : 1
@@ -388,7 +388,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 360.0, 160.0, 273.0, 166.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 35,
+					"size" : 86,
 					"slidercolor" : [ 0.796078431372549, 0.36078431372549, 0.215686274509804, 1.0 ],
 					"varname" : "multislider"
 				}
@@ -406,7 +406,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 66.0, 160.0, 273.0, 166.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 35,
+					"size" : 86,
 					"slidercolor" : [ 0.796078431372549, 0.36078431372549, 0.215686274509804, 1.0 ],
 					"varname" : "multislider[1]"
 				}
@@ -566,35 +566,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sico.euclidean.maxpat",
-				"bootpath" : "~/Documents/SICO/sico.distance/abs",
+				"bootpath" : "~/Documents/SICO/sico.distances/abs",
 				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sico.manhattan.maxpat",
-				"bootpath" : "~/Documents/SICO/sico.distance/abs",
+				"bootpath" : "~/Documents/SICO/sico.distances/abs",
 				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sico.covariance.maxpat",
-				"bootpath" : "~/Documents/SICO/sico.distance/abs",
+				"bootpath" : "~/Documents/SICO/sico.distances/abs",
 				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sico.correlation.maxpat",
-				"bootpath" : "~/Documents/SICO/sico.distance/abs",
+				"bootpath" : "~/Documents/SICO/sico.distances/abs",
 				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sico.cosine.maxpat",
-				"bootpath" : "~/Documents/SICO/sico.distance/abs",
+				"bootpath" : "~/Documents/SICO/sico.distances/abs",
 				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
@@ -632,8 +632,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -643,8 +643,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -653,6 +653,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -663,8 +664,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -690,6 +690,7 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -699,8 +700,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",

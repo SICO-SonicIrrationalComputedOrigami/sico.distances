@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 129.0, 325.0, 406.0 ],
+		"rect" : [ 1561.0, 319.0, 325.0, 406.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 268.0, 157.0, 22.0 ],
-					"text" : "expr $f1/(sqrt($f2)*sqrt($f3))"
+					"patching_rect" : [ 50.0, 268.0, 176.0, 22.0 ],
+					"text" : "expr 1-($f1/(sqrt($f2)*sqrt($f3)))"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 188.0, 224.0, 43.0, 22.0 ],
+					"patching_rect" : [ 206.5, 224.0, 43.0, 22.0 ],
 					"text" : "zl sum"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 194.0, 98.0, 22.0 ],
+					"patching_rect" : [ 206.5, 186.0, 98.0, 22.0 ],
 					"text" : "vexpr pow($f1\\,2)"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 119.0, 224.0, 43.0, 22.0 ],
+					"patching_rect" : [ 128.5, 224.0, 43.0, 22.0 ],
 					"text" : "zl sum"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 147.0, 98.0, 22.0 ],
+					"patching_rect" : [ 128.5, 141.0, 98.0, 22.0 ],
 					"text" : "vexpr pow($f1\\,2)"
 				}
 
@@ -144,7 +144,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 36.0, 30.0, 30.0 ]
+					"patching_rect" : [ 206.5, 40.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -156,7 +156,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 50.0, 346.0, 30.0, 30.0 ]
 				}
 
 			}
